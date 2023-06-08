@@ -46,6 +46,7 @@ public class RealizarMatricula {
 			
 			importe = Alumno1.calculaImporteMatricula();
 			
+			entrada.close();
 
 		} while (respuesta.equalsIgnoreCase("si"));
 		
@@ -58,8 +59,6 @@ public class RealizarMatricula {
 			
 			System.out.println("No se calculó el importe de la matricula por no cumplir los requisitos ");
 		}
-		
-		
 		
 		
 
